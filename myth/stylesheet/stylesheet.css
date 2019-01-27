@@ -1,0 +1,500 @@
+
+/* Flynn Gordon, Project Checkpoint, COMPX161-18B */
+
+@font-face {
+    font-family: 'diogenesregular';
+    src: url('diogenes-webfont.woff2') format('woff2'),
+         url('diogenes-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '18thcenturyregular';
+    src: url('18thcentury-webfont.woff2') format('woff2'),
+         url('18thcentury-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #F8ECC2;
+}
+
+#Greek_I_1 {
+	display: block;
+	margin-left: 16%;
+	color: #ff3333;
+	font-family: "Greek Diner Inline TT";
+	font-size: 120%;
+}
+
+
+	
+
+
+/* website title */
+#diogenes_1 {
+	display: block;
+	text-align: center;
+	color: #ff3333;
+	font-family: "diogenesregular";
+	font-size: 150%;
+	margin: 0 auto;
+}
+
+/* sub titles */
+#diogenes_2 {
+	display: block;
+	text-align: center;
+	color: #ff3333;
+	font-family: "diogenesregular";
+	font-size: 110%;
+}
+
+/* sub titles */
+#diogenes_22 {
+	display: block;
+	text-align: center;
+	color: #ff3333;
+	font-family: "diogenesregular";
+	font-size: 110%;
+}
+
+/* For nav bar */
+#diogenes_3 {
+	
+	color: #ff3333;
+	font-family: "diogenesregular";
+	font-size: 130%;
+}
+
+/* part, chapter e.t.c */
+#diogenes_4 {
+	display: block;
+	text-align: center;
+	color: #ff3333;
+	font-family: "diogenesregular";
+	font-size: 130%;
+}
+
+#bodytext_1 {
+	display: block;
+	text-align: center;
+	font-family: "Helvetica, Arial";
+	font-size: 150%;
+	padding-top: 5%;
+}
+
+#bodytext_2 {
+	display: block;
+	text-align: left;
+	font-family: "Helvetica, Arial";
+	font-size: 150%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin: 50px auto 50px;
+	max-width: 1000px;
+}
+
+#bodytext_3 {
+	display: block;
+	text-align: left;
+	font-family: "Helvetica, Arial";
+	font-size: 150%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin: 50px auto 50px;
+	max-width: 400px;
+}
+
+#bodybox {
+	display: block;
+	text-align: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin: 50px auto 50px;
+	max-width: 1000px;
+}
+
+#infoBox {
+	display: block;
+	text-align: left;
+	margin: auto;
+	max-width: 300px;
+	padding: 1%;
+	background-color: #F8ECA2;
+	border-style: solid;
+	opacity: 0;
+}
+
+#infoBox.fadeIn {
+	transition: 1s;
+	opacity: 1;
+}
+
+h2#infoName {
+	text-align: center;
+	font-weight: bold;
+	font-family: "diogenesregular";
+}
+
+p#info1 {
+	text-align: center;
+}
+
+ul.infoUL {
+	list-style-type: upper-roman;
+}
+
+
+/* Nav Bar */
+
+ul#navbar {
+	z-index: 1;
+    list-style-type: none;
+    
+    overflow: hidden;
+    
+    position: fixed;
+    top: 0px;
+    
+	
+}
+
+li {
+    
+}
+
+li a#nav2 {
+	
+    display: block;
+    color: #ff3333;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+li a#nav22 {
+	
+    display: block;
+    color: #ff3333;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+li a#nav222 {
+	
+    display: block;
+    color: #ff3333;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+li a#nav2222 {
+	
+    display: block;
+    color: #ff3333;
+    text-align: center;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+
+li a#nav2:hover:not(.active) {
+    background-color: #c6bc9b;
+}
+
+li a#nav22:hover:not(.active) {
+    background-color: #c6bc9b;
+}
+
+li a#nav222:hover:not(.active) {
+    background-color: #c6bc9b;
+}
+
+/*
+
+.active {
+    background-color: #000040;
+}
+
+*/
+
+
+/* Previous Page */
+
+a#prevPage {
+	display: block;
+    width:auto;
+    height:auto;
+	
+	text-decoration: none;
+	max-width: 200px;
+}
+
+a#nextPage {
+	display: block;
+    width:auto;
+    height:auto;
+	
+	text-decoration: none;
+	max-width: 200px;
+	float: right;
+	margin-right: 35px;
+}
+
+a#prevPage2 {
+	display: block;
+    width:auto;
+    height:auto;
+	
+	text-decoration: none;
+	max-width: 200px;
+}
+
+a#nextPage2 {
+	display: block;
+    width:auto;
+    height:auto;
+	
+	text-decoration: none;
+	max-width: 200px;
+	float: right;
+	margin-right: 35px;
+}
+
+/* next chap e.t.c */
+#diogenes_5 {
+	display: block;
+	text-align: center;
+	color: #ff3333;
+	font-family: "diogenesregular";
+	font-size: 100%;
+}
+
+/* next chap e.t.c */
+#diogenes_55 {
+	display: block;
+	text-align: center;
+	color: #ff3333;
+	font-family: "diogenesregular";
+	font-size: 100%;
+}
+
+a#prevPage:hover:not(.active) {
+    background-color: #c6bc9b;
+}
+
+a#nextPage:hover:not(.active) {
+    background-color: #c6bc9b;
+}
+
+a#prevPage2:hover:not(.active) {
+    background-color: #c6bc9b;
+}
+
+a#nextPage2:hover:not(.active) {
+    background-color: #c6bc9b;
+}
+	
+
+
+/* For Table of Contents */
+
+ol#Table	{
+	list-style-type: upper-roman;
+	list-style-position: inherit;
+}
+
+ol#TableTemp	{
+	list-style-type: none;
+	list-style-position: inherit;
+}
+
+/* For Weblinks! */
+
+/* For Website Title */
+
+ /* unvisited link */
+a:link {
+    color: #ff3333;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #ff3333;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #a90000;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #ff3333;
+	text-decoration: none;
+} 
+
+
+ /* unvisited link */
+a:link {
+    color: #ff3333;
+	text-decoration: none;
+}
+
+/* visited link */
+#diogenes_1 a:visited {
+    color: #ff3333;
+	text-decoration: none;
+}
+
+/* mouse over link */
+#diogenes_1 a:hover {
+    color: #a90000;
+	text-decoration: none;
+}
+
+/* selected link */
+#diogenes_1 a:active {
+    color: #ff3333;
+	text-decoration: none;
+} 
+
+
+/* For Nav Bar */
+
+ /* unvisited link */
+#diogenes_3 a:link {
+    color: #ff3333;
+	text-decoration: none;
+}
+
+/* visited link */
+#diogenes_3 a:visited {
+    color: #ff3333;
+	text-decoration: none;
+}
+
+/* mouse over link */
+#diogenes_3 a:hover {
+    color: #a90000;
+	text-decoration: none;
+}
+
+/* selected link */
+#diogenes_3 a:active {
+    color: #ff3333;
+	text-decoration: none;
+} 
+
+/* For Table of Contents */
+
+ /* unvisited link */
+#bodytext_1 a:link {
+    color: black;
+	
+}
+
+/* visited link */
+#bodytext_1 a:visited {
+    color: black;
+	
+}
+
+/* mouse over link */
+#bodytext_1 a:hover {
+    color: #a90000;
+	
+}
+
+/* selected link */
+#bodytext_1 a:active {
+    color: #ff3333;
+	
+} 
+
+
+/* Images */
+
+.indeximg {
+	
+	max-width: 40%;
+	margin-top: 2%;
+	border-width: 5px;
+	border-style: solid;
+}
+
+#TreeImage {
+	text-align: center;
+	margin: 2% 10% 0 10%;
+	max-width: 80%;
+}
+
+/* Responsive Design */
+
+/* for laptops */
+@media only screen and (max-width: 1366px) {
+	#diogenes_1 {
+		font-size: 125%;
+	}
+	
+	#diogenes_2 {
+		font-size: 95%;
+	}
+	
+	#diogenes_3 {
+		font-size: 110%;
+	}
+	
+	ul#navbar {
+		z-index: auto;
+		list-style-type: none;
+		overflow: visible;
+		position: fixed;
+		top: auto;
+		width: 50%;
+		text-align: center;
+	}
+	
+	li a {
+		float: left;
+	}
+	
+	li a#nav2 {
+		text-align: center;
+		padding: 20px;
+	}
+
+	li a#nav22 {
+		text-align: center;
+		padding: 20px;
+	}
+
+	li a#nav222 {
+		text-align: center;
+		padding: 20px;
+	}
+	
+	li a#nav2222 {
+		text-align: center;
+		padding: 20px;
+	}
+	
+	#bodytext_1 {
+		padding-top: 10%;
+	}
+	
+	#diogenes_22 {
+		padding-top: 5%
+	}
+}
+
