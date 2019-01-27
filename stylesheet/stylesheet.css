@@ -255,6 +255,16 @@ body {
     font-family: 'hackedregular';
 	font-size: 250%;
 	text-shadow: 5px 4px #0a0e43;
+	float: left;
+}
+
+#hackedtitlemyth {
+    color: #ff175d;
+    font-family: 'hackedregular';
+	font-size: 250%;
+	text-shadow: 5px 4px #0a0e43;
+	float: right;
+	padding-right: 2%;
 }
 
 /* For Header */
@@ -271,7 +281,11 @@ ul {
 }
 
 li {
-    float: left;
+    
+}
+
+li myth {
+    float: right;
 }
 
 li a {
