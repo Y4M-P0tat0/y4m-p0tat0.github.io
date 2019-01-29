@@ -13,6 +13,19 @@
 
 
 
+
+
+@font-face {
+    font-family: 'arcadeitalic';
+    src: url('arcade-italic-webfont.woff2') format('woff2'),
+         url('arcade-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}	
+
+
+
 @font-face {
     font-family: 'arcade_interlacedregular';
     src: url('arcade_i-webfont.woff2') format('woff2'),
@@ -304,7 +317,7 @@ li a:hover:not(.active) {
 }
 
 /* mouse over link */
-li a#linkbar:hover {
+li a.linkbar:hover {
     animation-name: textEnlarge;
     animation-duration: 0.6s;
 }
@@ -352,7 +365,8 @@ li a#linkbar:hover {
 	margin-left: 10.6%;
 	margin-right: 10.6%
 	margin-top: 4%;
-	padding: 0%;
+	padding-left: 2%;
+	padding-right: 2%;
 	color: #de295b;
 	font-family: "hint-retro_free-versionRg";
 	font-size: 240%;
@@ -361,6 +375,7 @@ li a#linkbar:hover {
 	background: rgb(0, 0, 0); /* Fall-back for browsers that don't
                                     support rgba */
     background: rgba(0, 0, 0, .7);
+	text-align: left;
 }
 
 #hintretrobulk2 {
@@ -524,9 +539,17 @@ li a#linkbar:hover {
 	max-width: 1500px;
 }
 
+.insertCoin {
+	z-index: 1;
+	position: absolute;
+	width: 20%;
+	display: block;
+	padding-top: 5%;
+	left: 50%;
+}
+
 .bar {
 	z-index: -1;
-	
 }
 
 .blogimg1 {
@@ -569,8 +592,24 @@ li a#linkbar:hover {
 }
 
 #container {
+	position: relative;
 	width:960px;
 	margin:0px auto;
+}
+
+#crtContainer {
+	position: relative;
+}
+
+#insert {
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "arcadeitalic";
+	color: #FFB835;
+	font-size: 50px;
 }
 
 
