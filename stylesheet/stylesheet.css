@@ -601,15 +601,43 @@ li a.linkbar:hover {
 	position: relative;
 }
 
-#insert {
+#InsertCoin {
 	z-index: 1;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 52%;
 	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 100px;
+	opacity: 0.85;
+	animation-name: textAnim;
+	animation-delay: 1s;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+/* The animation code */
+@keyframes textAnim {
+	1%		{opacity: 0;}
+	50%		{opacity: 0;}
+	51%		{opacity: 0.85;}
+}
+
+#insert {
+	position: relative;
+	top: -10%;
 	font-family: "arcadeitalic";
 	color: #FFB835;
-	font-size: 50px;
+	font-size: 60px;
+}
+
+#coin {
+	position: relative;
+	top: 44%;
+	left: -25%;
+	font-family: "arcadeitalic";
+	color: #FFB835;
+	font-size: 60px;
 }
 
 
