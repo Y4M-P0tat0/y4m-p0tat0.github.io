@@ -248,19 +248,32 @@ body {
 
 
 
-
-
-
-
-#edgeracerheader {
+#headerbox {
 	padding-top: 5%;
 	text-align: center;
-    color: #ff0080;
 	font-size: 550%;
 	font-family: 'edge_racerregular';
 	//text-shadow: 6px 5px #131c88;
 	//text-shadow: 0 0 80px rgba(255,255,255,.5);
 	text-decoration: none;
+	position: relative;
+	z-index: 1;
+}
+
+#edgeracerheader {
+	text-align: center;
+    color: #ff0080;
+	text-decoration: none;
+	position: absolute;
+	z-index: 1;
+}
+
+#edgeracerheadershadow {
+    color: #131c88;
+	position: relative;
+	z-index: 0;
+	top: 6px;
+	left: 5px;
 }
 
 a.fill:active {
