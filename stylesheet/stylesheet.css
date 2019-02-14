@@ -246,14 +246,53 @@ body {
 	margin: 0;
 }
 
+
+
+
+
+
+
 #edgeracerheader {
 	padding-top: 5%;
 	text-align: center;
     color: #ff0080;
 	font-size: 550%;
 	font-family: 'edge_racerregular';
-	text-shadow: 6px 5px #131c88;
+	text-shadow: 6px 5px rgba(47,61,226,.5);
+	//text-shadow: 0 0 80px rgba(255,255,255,.5);
 }
+
+a.fill {
+
+/* Clip Background Image */
+
+	  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+	}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+/* source: https://codepen.io/zitrusfrisch/pen/fjbal */ 
+
+
+
+
 
 #hackedtitle {
     margin-left: 12%;
