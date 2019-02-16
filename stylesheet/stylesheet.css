@@ -447,12 +447,13 @@ li a.linkbar:hover {
 	text-align: left;
 }
 
-#hintretrobulk2 {
+#hintretrobulkabout {
 	display: block;
 	width: 60%;
 	margin-left: 12%;
 	margin-top: 4%;
-	padding: 0%;
+	padding: 10px;
+	padding-left: 15px;
 	color: #de295b;
 	font-family: "hint-retro_free-versionRg";
 	font-size: 210%;
@@ -461,6 +462,12 @@ li a.linkbar:hover {
 	background: rgb(0, 0, 0); /* Fall-back for browsers that don't
                                     support rgba */
     background: rgba(0, 0, 0, .7);
+}
+
+.aboutLink {
+	position: relative;
+	padding: 7px;
+	font-size: 125%;
 }
 
 #hintretroemailunder {
@@ -943,6 +950,32 @@ a.linkbar:active {
 
 /* selected link */
 #timelink a:active {
+    color: #ff1830;
+	text-decoration: none;
+}
+
+
+
+ /* unvisited link */
+a:link {
+    color: #ffffff;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF3D91;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
     color: #ff1830;
 	text-decoration: none;
 } 
