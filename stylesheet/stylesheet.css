@@ -297,14 +297,14 @@ a.fill:hover {
 	
 /* Clip Background Image */
 
-	  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+	  background: url(image/animated_text_fill3.png) repeat-y;
 	  -webkit-background-clip: text;
 	  background-clip: text;
 
 /* Animate Background Image */
 
 	  -webkit-text-fill-color: transparent;
-	  -webkit-animation: aitf 80s linear infinite;
+	  -webkit-animation: aitf 60s linear infinite;
 
 /* Activate hardware acceleration for smoother animations */
 
@@ -320,8 +320,6 @@ a.fill:hover {
 }
 
 /* source: https://codepen.io/zitrusfrisch/pen/fjbal */ 
-
-
 
 
 
@@ -390,6 +388,7 @@ li a:hover:not(.active) {
 li a.linkbar:hover {
     animation-name: textEnlarge;
     animation-duration: 0.6s;
+	animation-fill-mode: forwards;
 }
 
 /* The animation code */
