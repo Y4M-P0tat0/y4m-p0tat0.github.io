@@ -551,13 +551,11 @@ li a.linkbar:hover {
 	color: #e5e5e5;
 	font-size: 100%;
 	padding-left: 2%;
-	padding-right: auto;
-	padding-top: 3%;
+	padding-top: 15px;
 	padding-bottom: 1%;
 	position: relative;
-	max-width: 63%;
+	max-width: 1050px;
 	display: inline-block;
-//	right: -30%;
 	float: right;
 	line-height: 1.2;
 }
@@ -580,13 +578,12 @@ li a.linkbar:hover {
 	font-family: "arcade_roundedregular";
 	color: #e5e5e5;
 	font-size: 100%;
-	padding-left: auto;
 	padding-right: 10px;
 	padding-top: 2%;
-	padding-bottom: 2px;
-	text-align: bottom;
-	position: relative;
-	float: right;
+	padding-bottom: 2px;	
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
 }
 
 
@@ -648,12 +645,15 @@ li a.linkbar:hover {
 
 #dkcon {
 	display:inline-block;
-	width: 97.5%;
+	width: 95%;
 	
-	margin: 1.5% 1%;
+	margin: 2% 2%;
 	background-color: #000010;
-	//padding: 1%;
+	padding: 3px;
 	position: relative;
+	
+	border-radius: 25px;
+	border: 4px solid #ce2353;
 	
 }
 
@@ -980,6 +980,31 @@ a:active {
 	text-decoration: none;
 } 
 
+
+
+ /* unvisited link */
+a.arcadebulklink:link {
+    color: #ff8abc;
+	text-decoration: none;
+}
+
+/* visited link */
+a.arcadebulklink:visited {
+    color: #ff8abc;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a.arcadebulklink:hover {
+    color: #FF3D91;
+	text-decoration: none;
+}
+
+/* selected link */
+a.arcadebulklink:active {
+    color: #ffffff;
+	text-decoration: none;
+} 
 
 /* Credits
 
