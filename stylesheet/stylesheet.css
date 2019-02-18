@@ -984,13 +984,13 @@ a:active {
 
  /* unvisited link */
 a.arcadebulklink:link {
-    color: #ff8abc;
+    color: #858585;
 	text-decoration: none;
 }
 
 /* visited link */
 a.arcadebulklink:visited {
-    color: #ff8abc;
+    color: #858585;
 	text-decoration: none;
 }
 
