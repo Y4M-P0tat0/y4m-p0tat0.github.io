@@ -1,0 +1,131 @@
+div#endDiv {
+	border: 2px solid red;
+	border-radius: 5px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+}
+
+p.endText {
+	font-family: helvetica;
+	font-size: 1.1em;
+	color: #001433;
+	margin-right: 0px;
+}
+
+div.right {
+	float: left;
+	width: 300px;
+	margin: 10px;
+	margin-top: 30px;
+}
+
+div.left {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+div.left2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+
+div.center {
+	float: right;
+	width: 300px;
+	margin: 10px;
+	padding-left: 5px;
+}
+
+p.caption {
+	word-wrap: normal;
+	padding: 0px 5px;
+	margin-right: 0px;
+}
+
+p {
+	padding: 0px 20px;
+	margin-right: 100px;
+	font-family: Arial;
+	font-size: 1em;
+}
+
+h2, h3, h4 {
+	font-family: Bookman Old Style;
+	text-decoration: underline;
+	margin-left: 80px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Britannic Bold;
+	font-size: 3em;
+	text-decoration: underline;
+}
+
+div#Contents {
+	word-wrap: normal;
+	width: 250px;
+	border: 2px solid #003300;
+	top: 0;
+	margin-left: -3px;
+	margin-top: -259px;
+	background-color: #ffcc99;
+	font-family: Bodoni MT;
+	position: sticky;
+}
+
+a:link {
+	text-decoration: none;
+	color: #a3297a;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #a3297a;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {
+	text-decoration: none;
+	color: grey;
+} 
+
+p#word {
+	text-align: center;
+	font-weight: bold;
+	font-family: Bell MT;
+	font-size: 1.4em;
+	margin-left: 0px;
+}
+
+div#border {
+	border: 5px solid #003300;
+	background-color: #ffffb3;
+}
+
+body {
+	background-color: #ff6600;
+}
+
+table#table {
+	margin: 0px 20px;
+	border: 2px dashed black;
+	background-color: #ffffcc;
+}
+
+img#svg {
+	margin: 0px 20px;
+}
+
+div#top, div#History, div#Resources, div#Efficiency, div#Types, div#Design, div#Materials, div#Display, div#SmallTurbines, div#Spacing, div#Operability, div#Comparison, div#Records {
+	margin-left: 260px;
+}
+
+
+	

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Patient Details</title>
+<link rel='stylesheet' type='text/css' href='css/style.css'/>
+<script src='js/js.js'></script>
+</head>
+<body>
+<h1>SOFA / QSOFA Score</h1>
+<div id="border">
+<h2>Patient Details:</h2>
+<form id="patient" name="formnhi" action="calculation.html" method="get" onsubmit="return form2();">
+NHI Number:<br>
+<input type="text" name="nhinumber">
+<br>
+First name:<br>
+<input type="text" name="firstname">
+<br>
+Last name:<br>
+<input type="text" name="lastname">
+<br>
+Title:<br>
+<select name="title">
+<option value="Mr">Mr</option>
+<option value="Mrs">Mrs</option>
+<option value="Ms">Ms</option>
+<option value="Miss">Miss</option>
+</select>
+<br>
+Address:<br>
+<textarea name="address" rows="2" cols="35">
+</textarea>
+<br>
+<br>
+<input type="Submit" value="Submit" id="submit">
+<button type="button" onclick="location.href = 'index.html';">Back</button>
+</form>
+</div>
+</body>
+</html>

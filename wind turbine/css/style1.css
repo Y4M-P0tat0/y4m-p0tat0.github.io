@@ -1,0 +1,106 @@
+div#endDiv {
+	margin-right: 100px;
+	margin-bottom: 20px;
+}
+
+p.endText {
+	font-family: helvetica;
+	font-size: 1.1em;
+	color: #001433;
+	margin-right: 0px;
+}
+
+div.right {
+	float: right;
+	width: 300px;
+	margin: 10px;
+}
+
+div.left {
+	float: left;
+	width: 300px;
+	margin: 10px -40px 10px 20px;
+}
+
+div.left2 {
+	float: left;
+	width: 300px;
+	margin: 10px 10px 10px 20px;
+}
+
+div.center {
+	width: 300px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.caption {
+	word-wrap: normal;
+	padding: 0px 5px;
+	margin-right: 0px;
+}
+
+p {
+	padding: 0px 20px;
+	margin-right: 100px;
+	font-family: Calibri;
+	font-size: 1em;
+}
+
+h2, h3, h4 {
+	font-family: Constantia;
+	margin-left: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-family: georgia;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+div#Contents {
+	margin-left: 20px;
+	margin-right: 100px;
+	word-wrap: normal;
+	width: 300px;
+	border: 2px solid black;
+	float: right;
+	background-color: #e6e6ff;
+	font-family: Tahoma;
+}
+
+p#word {
+	text-align: center;
+	font-weight: bold;
+	font-family: Constantia;
+	font-size: 1.2em;
+}
+
+a.content {
+	
+}
+
+div#border {
+	border: 3px solid black;
+	background-color: #e6ffe6;
+}
+
+body {
+	background-color: #ccffcc;
+}
+
+table#table {
+	margin: 0px 20px;
+	border: 2px solid grey;
+}
+
+img#svg {
+	margin: 0px 20px;
+}
+
+div#History, div#Resources, div#Efficiency, div#Types, div#Design, div#Materials, div#Display, div#SmallTurbines, div#Spacing, div#Operability, div#Comparison, div#Records {
+	border-top: 2px solid black;
+}
+	

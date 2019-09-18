@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Calculation</title>
+<link rel='stylesheet' type='text/css' href='css/style.css'/>
+<script src='js/js.js'></script>
+</head>
+<body onload="start();">
+<h1>SOFA / QSOFA Score</h1>
+<div id="border">
+<h2>SOFA for <span id="title">*title*</span> <span id="first">*first*</span> <span id="last">*last*</span></h2>
+<p>Address: <span id="address"></span></p>
+<p>NHI Number: <span id="NHI"></span></p>
+<div id="calcs">
+<div id="calc1">
+<h3>SOFA</h3>
+<form id="calculation" name="formcalc1">
+Respiratory system:<br>
+<input type="text" name="respiratory">
+Mechanically Ventilated:<input type="checkbox" name="vent">
+<br>
+Nervous system:<br>
+<input type="text" name="nervous">
+<br>
+Cardiovascular system:<br>
+<input type="text" name="cardiovascular">
+<br>
+Dopamine:<input type="radio" value="dopa" name="drugs">
+Dobutamine:<input type="radio" value="duba" name="drugs">
+Epineprhine:<input type="radio" value="epine" name="drugs">
+Norepineprhine:<input type="radio" value="noepine" name="drugs">
+<br>
+<input type="text" name="drug">
+<br>
+Liver:<br>
+mg/dl:<input type="radio" value="mgliver" name="drugs2">
+μmol/L:<input type="radio" value="molliver" name="drugs2">
+<br>
+<input type="text" name="liver">
+<br>
+Coagulation:<br>
+<input type="text" name="coagulation">
+<br>
+Kidneys:<br>
+mg/dl:<input type="radio" value="mg" name="drugs3">
+μmol/L:<input type="radio" value="mol" name="drugs3">
+Urine:<input type="radio" value="urine" name="drugs3">
+<br>
+<input type="text" name="kidneys">
+<br>
+<br>
+<button type="button" id="submit2" onclick="calc1()">Calculate</button>
+Total:
+<input type="text" name="total" value="" id="total" readonly>
+</form>
+</div>
+<div id="calc2">
+<h3>QSOFA</h3>
+<form id="calculationQ" name="formcalc2">
+Blood Pressure:<br>
+<input type="text" name="pressure">
+<br>
+Respiratory Rate:<br>
+<input type="text" name="respiratory">
+<br>
+Altered mentation:<br>
+<input type="text" name="mentation">
+<br>
+<br>
+<button type="button" id="submit3" onclick="calc2()">Calculate</button>
+Total:
+<input type="text" name="total2" id="total2" value="" readonly>
+</form>
+<button type="button" onclick="location.href = 'patient.html';">Back</button>
+</div>
+</div>
+</div>
+</body>
+</html>

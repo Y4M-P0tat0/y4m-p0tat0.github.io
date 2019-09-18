@@ -1,0 +1,56 @@
+div#border {
+	border: 6px solid #003300;
+	border-radius: 10px;
+	background-color: #99ff66;
+	margin: 6% 20%;
+	height: 600px;
+}
+
+body {
+	background-color: #66ffff;
+}
+
+p {
+	font-family: Calibri;
+	padding: 0px 100px;
+}
+
+h2, h1 {
+	text-align: center;
+	font-family: Constantia;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+input#submit {
+	margin-left: 100px;
+}
+
+form#patient {
+	padding: 30px 0px 50px 350px;
+}
+
+button#begin {
+	margin-left: 46%;
+	margin-top: 25px;
+	padding: 3px;
+	font-family: Tahoma;
+}
+
+div#calc1 {
+	position: absolute;
+	margin-left: 150px;
+}
+
+div#calc2 {
+	position: absolute;
+	margin-left: 600px;
+	
+}
+
+div#calcs {
+	margin: 0px 0px 0px 50px;
+}

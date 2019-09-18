@@ -386,7 +386,19 @@ li a:hover:not(.active) {
     //background-color: #111;
 }
 
-/* mouse over link */
+
+/* This gets added on first mouseover */
+li a.linkbar.animated {
+	-webkit-animation: textShrink 0.6s;
+}
+
+li a.linkbar:hover {
+    -webkit-animation: textEnlarge 0.6s forwards;
+}
+
+
+/*
+
 li a.linkbar:hover {
     -webkit-animation: textEnlarge 0.6s forwards;
 }
@@ -394,6 +406,8 @@ li a.linkbar:hover {
 li a.linkbar {
 	-webkit-animation: textShrink 0.6s forwards;
 }
+
+*/
 
 /* The animation code */
 
@@ -413,10 +427,17 @@ li a.linkbar {
 }
 
 .preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
+	transition: none !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	
+	transition: all 0s linear;
+	-webkit-transition: all 0s linear;
+	-moz-transition: all 0s linear;
+	-ms-transition: all 0s linear;
+	-o-transition: all 0s linear;
 }
 
 .active {
